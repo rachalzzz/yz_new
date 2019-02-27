@@ -63,14 +63,14 @@ $(document).ready(function () {
 	});
 
 
-	$(".fan").click(function () {
-		$(".fan").hide();
-		$(".jian").show();
-	});
-	$(".jian").click(function () {
-		$(".jian").hide();
-		$(".fan").show();
-	});
+	// $(".fan").click(function () {
+	// 	$(".fan").hide();
+	// 	$(".jian").show();
+	// });
+	// $(".jian").click(function () {
+	// 	$(".jian").hide();
+	// 	$(".fan").show();
+	// });
 
 
 
