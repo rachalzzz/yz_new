@@ -1,0 +1,23 @@
+@font-face{
+     font-family: 'HYZiKuTangYiShanKaiW'; 
+     src: url('../font/HYZiKuTangYiShanKaiW.eot');
+     src:url('../font/HYZiKuTangYiShanKaiW.woff') format('woff'),
+         url('../font/HYZiKuTangYiShanKaiW.ttf') format('truetype'),
+         url('../font/HYZiKuTangYiShanKaiW.svg') format('svg');
+}
+@font-face{
+     font-family: 'RABIOLA'; 
+     src: url('../font/RABIOLA.eot');
+     src:url('../font/RABIOLA.woff') format('woff'),
+         url('../font/RABIOLA.ttf') format('truetype'),
+         url('../font/RABIOLA.svg') format('svg');
+}
+@font-face{
+     font-family: 'MTCORSVA'; 
+     src: url('../font/MTCORSVA.eot');
+     src:url('../font/MTCORSVA.woff') format('woff'),
+         url('../font/MTCORSVA.ttf') format('truetype'),
+         url('../font/MTCORSVA.svg') format('svg');
+}
+
+ 
