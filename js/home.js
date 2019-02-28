@@ -87,11 +87,21 @@ $(document).ready(function () {
 		$('body').addClass('wh100')
 	});
 
+	$(".toggleShow").click(function () { 
+		$('.founder_text').removeClass('hide_m')
+		$('.toggleShow').hide()
+	});
+	
+	$("#sizeIcon_i").click(function () {
+		$('.sizeAct span').toggleClass('notshow')
+	});
+
 });
 
 
 // 滚动条距离顶部的距离
 $(window).scroll(function () {
+	$('.sizeAct span').addClass('notshow')
 	if ($(window).scrollTop() >= 300) {
 		$("#nav").addClass('nav_act')
 	} else {

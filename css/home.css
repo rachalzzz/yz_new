@@ -77,11 +77,19 @@
 	margin-top: 0.05rem
 }
 
-.fan {
-	width: 18px;
-	vertical-align: sub;
+.sizeIcon {
+	width: 0.3rem;
+	vertical-align: sub;  cursor: pointer;
 }
-
+.sizeAct{ float: right;vertical-align: sub; 
+}
+.sizeAct span{   margin: -10px 0;
+	width: 0.3rem;
+	margin-top: -10px 0;
+	border-top: 1px solid #000;
+	display: block;
+	line-height: 60px;;}
+.notshow{ display: none !important}
 .nav_act {
 	position: fixed !important;
 	z-index: 100;
@@ -106,7 +114,7 @@
 	position: absolute;
 	top: 0.29rem;
 	right: 0.34rem;
-	width: 0.58rem;
+	width: 0.38rem;
 	z-index: 999;
 }
 
@@ -139,20 +147,33 @@
 }
 
 .nav_btn .fontIcon2 {
+	width: 0.45rem;margin-right: 20px
+}
+.nav_btn .fontIcon3 {
 	width: 0.45rem;
 }
-
 /* 创始人 */
 #founder {
 	position: relative;
+	color: #666666;
 }
 
-#founder .founder_left .specialText {
+#founder .founder_left .specialText1 {
 	color: #c69c6d;
 	font-size: 0.8rem;
-	font-family: MTCORSVA
+	font-family: MTCORSVA; 
+	position: absolute;
+	top:2.7rem;
+	left:3.63rem;
 }
-
+#founder .founder_left .specialText2 {
+	color: #c69c6d;
+	font-size: 0.8rem;
+	font-family: MTCORSVA; 
+	position: absolute;
+	top:3.6rem;
+	left:3.63rem;
+}
 #founder .founder_left {
 	width: 5.42rem;
 	margin-top: 2.7rem;
@@ -165,7 +186,9 @@
 
 #founder .founder_left .normalText {
 	margin-top: 0.38rem;
-	font-family: HYZiKuTangYiShanKaiW;
+	font-family: HYZiKuTangYiShanKaiW;position: absolute;
+	top:4.43rem;
+	left:3.63rem;
 }
 
 #founder .founder_right {
@@ -175,7 +198,6 @@
 	font-family: HYZiKuTangYiShanKaiW;
 	margin-top: 2.3rem;
 	line-height: 1.7em;
-	color: #666666;
 	float: left;
 	font-size: 0.18rem;
 }
@@ -183,6 +205,7 @@
 #founder .founder_right div {
 	margin-bottom: 0.5rem
 }
+.toggleShow{color: #cccccc;font-size: 0.18rem; width: 100%; text-align: center;}
 .founderpan{font-size: 0.26rem; color: #a67c52 }
 #founder .founder_img {
 	position: absolute;
@@ -196,7 +219,7 @@
 	display: none;
 	position: relative;
 	width: 100%;
-	padding-bottom: 1.87rem;
+	/* padding-bottom: 1.87rem; */
 	text-align: center;
 	padding-top: 1.06rem;
 }
@@ -454,7 +477,7 @@
 #vision .text2 {
 	width: 100%;
 	color: #fff;
-	font-size: 0.18rem;
+	font-size: 0.2rem;
 	position: absolute;
 	text-align: center;
 	top: 2.83rem;
@@ -507,9 +530,14 @@
 	line-height: 0.32rem;
 	display: inline-block;
 	border-radius: 50%;
-	text-align: center;
-	border: 0.04rem solid #A97F55;
-	margin-bottom: 0.48rem
+	text-align: center; 
+	margin-bottom: 0.48rem;
+	 position: relative;
+	
+}
+#vision .textbox .box img {
+	width: 0.92rem;
+	height: 0.92rem; position: absolute;top:0;left:0;
 }
 
 #vision .textbox .box div {
@@ -625,7 +653,8 @@
 }
 
 .partner_btn img {
-	width: 0.36rem;
+	
+	width: 0.21rem;
 }
 
 .partner_btn #up {
@@ -983,45 +1012,40 @@
 }
 
 .partner_btn img {
-	width: 0.36rem;
+	width: 0.21rem;
+	padding:10px; 
 }
 
-.partner_btn #up {
-	position: absolute;
-	top: 5rem;
-	left: 3.63rem
-}
-
+ 
 .partner_btn #down {
 	position: absolute;
-	top: 6.42rem;
+	top: 6.1rem;
 	left: 3.63rem
 }
 
 .partner_btn .point {
 	background: #c69c6d;
-	width: 0.1rem;
-	height: 0.1rem;
+	width: 0.08rem;height: 0.08rem; 
 	border-radius: 50%;
 }
 
 .partner_btn .point1 {
 	position: absolute;
-	top: 5.5rem;
-	left: 3.74rem;
+	top: 5.6rem;
+	left: 3.842rem;
 }
 
 .partner_btn .point2 {
 	position: absolute;
-	top: 6rem;
-	left: 3.74rem;
+	top: 5.9rem;
+	left: 3.842rem;
 }
 
 .partner_btn .point_act {
 	position: absolute;
-	left: 3.73rem;
-	width: 0.15rem;
-	height: 0.15rem;
+	left: 3.82rem;
+	width: 0.11rem;
+	height: 0.11rem;
 }
 
 /**/
@@ -1069,10 +1093,15 @@
 	z-index: 10;
 	height: 5.34rem;
 	position: absolute;
-	top: 0;
-	background: #CFAB79;
+	top: 0; 
 	opacity: 0.95;
-	border-radius: 1.11rem;
+	border-radius: 1.5rem; 
+	background: -moz-linear-gradient(top, #F4D8B1  0%, #A67C52 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
+    background: -webkit-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+    background: -o-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+    background: -ms-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+
 }
 
 #scrollDiv .scroll_text_a {
@@ -1137,12 +1166,16 @@
 	color: #ffffff;
 	width: 100%;
 	z-index: 10;
-	height: 5.34rem;
+	height: 5.3rem;
 	position: absolute;
-	top: -3.12rem;
-	background: #CFAB79;
+	top: -3.12rem;  
+	background: -moz-linear-gradient(top, #A67C52  0%, #F4D8B1 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#F4D8B1))  ;
+    background: -webkit-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
+    background: -o-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
+    background: -ms-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
 	opacity: 0.95;
-	border-radius: 1.11rem;
+	border-radius: 1.9rem;
 }
 
 #scrollDiv .scroll_text_top .scroll_text_a {
@@ -1205,7 +1238,7 @@
 
 
 #partner_m {
-	padding-bottom: 0.5rem;
+	padding-bottom: 0.27rem;
 	display: none
 }
 
@@ -1248,7 +1281,7 @@
 }
 
 .swiper-container ul {
-	width: 9rem;
+	width: 9rem;padding-bottom: 0.4rem;
 }
 
 .swiper-container li {
@@ -1453,7 +1486,7 @@
 }
 
 .daily_btn img {
-	width: 0.36rem;
+	width: 0.21rem;padding: 10px 
 }
 
 .daily_btn #daily_up {
@@ -1464,34 +1497,34 @@
 
 .daily_btn #daily_down {
 	position: absolute;
-	top: 7.1rem;
+	top: 7rem;
 	left: 3.63rem
 }
 
 .daily_btn .point {
 	background: #c69c6d;
-	width: 0.1rem;
-	height: 0.1rem;
+	width: 0.08rem;
+	height: 0.08rem;
 	border-radius: 50%;
 }
 
 .daily_btn .point1 {
 	position: absolute;
-	top: 6.4rem;
-	left: 3.76rem;
+	top: 6.45rem;
+	left: 3.83rem
 }
 
 .daily_btn .point2 {
 	position: absolute;
 	top: 6.83rem;
-	left: 3.76rem;
+	left: 3.83rem
 }
 
 .daily_btn .point_act {
 	position: absolute;
-	left: 3.735rem;
-	width: 0.15rem;
-	height: 0.15rem;
+	left: 3.82rem;
+	width: 0.11rem;
+	height: 0.11rem;
 }
 
 .daily_right {
@@ -1803,7 +1836,7 @@
 
 
 
-@media (max-width: 1920px) {
+@media (max-width: 3000px) {
 	#headerTop {
 		display: block;
 	}
@@ -1889,6 +1922,23 @@
 }
 
 @media (max-width: 750px) {
+
+	#practitioner .normalText {
+		font-family: HYZiKuTangYiShanKaiW;
+		font-size: 0.48rem;
+		position: absolute;
+		top: 3.07rem;
+		width: 100%;
+		text-align: center;
+	  }
+	  #practitioner .specialText {
+		font-family: MTCORSVA;
+		font-size: 0.36rem;
+		position: absolute;
+		top: 3.83rem;
+		width: 100%;
+		text-align: center;
+	  }
 	#headerTop {
 		display: none;
 	}
@@ -1970,6 +2020,53 @@
 
 	#contact_m {
 		display: block
+	}
+
+
+
+	#vision .text1 {
+		width: 100%;
+		color: #fff;
+		font-size: 0.34rem;
+		position: absolute;
+		text-align: center;
+		top: 1.78rem;
+	}
+	
+	#vision .text2 {
+		width: 100%;
+		color: #fff;
+		font-size: 0.28rem;
+		position: absolute;
+		text-align: center;
+		top: 2.83rem;
+	}
+	
+	#vision .text3 {
+		width: 80%;
+		margin: 0 10%;
+		color: #fff;
+		font-size: 0.28rem;
+		position: absolute;
+		text-align: center;
+		top: 3.26rem;
+	}
+	
+	#vision .text4 {
+		width: 100%;
+		color: #fff;
+		font-size: 0.34rem;
+		position: absolute;
+		text-align: center;
+		top: 5.16rem;
+	} #vision .textbox {
+		width: 94%;
+		margin-left: 5%;
+		height: 0.92rem;
+		position: absolute;
+		top: 6.1rem;
+		font-size: 0.2rem;
+		text-align: center;
 	}
 
 }
