@@ -78,17 +78,12 @@
 }
 
 .sizeIcon {
-	width: 0.2rem;
+	width: 0.25rem;
 	vertical-align: sub;  cursor: pointer;
 }
 .sizeAct{ float: right;vertical-align: sub; 
 }
-.sizeAct span{   margin: -10px 0;
-	width: 0.2rem;
-	margin-top: -10px 0;
-	border-top: 1px solid #000;
-	display: block;
-	line-height: 60px;;}
+.sizeAct img{margin-right: 0.15rem   }
 .notshow{ display: none !important}
 .nav_act {
 	position: fixed !important;
@@ -205,7 +200,11 @@
 #founder .founder_right div {
 	margin-bottom: 0.5rem
 }
-.toggleShow{color: #cccccc;font-size: 0.18rem; width: 100%; text-align: center;}
+.toShow{color: #cccccc;font-size: 0.18rem; width: 100%; text-align: center;}
+.toShow img{width:0.34rem;    vertical-align: sub;margin-right: 0.1rem}
+.tohide{color: #cccccc;font-size: 0.18rem; width: 100%; text-align: center;}
+.tohide img{width:0.34rem;    vertical-align: sub;margin-right: 0.1rem}
+
 .founderpan{font-size: 0.26rem; color: #a67c52 }
 #founder .founder_img {
 	position: absolute;
@@ -1315,7 +1314,7 @@
 	color: #ffffff;
 	width: 100%;
 	z-index: 10;
-	left: 1.18rem;
+	left: 1.19rem;
 	height: 5.4rem;
 	position: absolute;
 	top: 0.1rem;
@@ -1396,10 +1395,15 @@
 	z-index: 10;
 	height: 5.45rem;
 	position: absolute;
-	top: -3.12rem;
-	background: #CFAB79;
+	top: -3.14rem;
+	background: -moz-linear-gradient(top, #A67C52  0%, #F4D8B1 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#F4D8B1))  ;
+    background: -webkit-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
+    background: -o-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
+    background: -ms-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
 	opacity: 0.95;
-	border-radius: 1.12rem;
+	opacity: 0.95;
+	border-radius: 1.22rem;
 }
 
 .swiper-container .scroll_text_top .scroll_text_a {
@@ -1582,11 +1586,11 @@
 	top: 0;
 	z-index: 20;
 	border-radius: 1.05rem;
-	background: -moz-linear-gradient(top, #F4D8B1  0%, #E1C196 100%) ;
+	background: -moz-linear-gradient(top, #F4D8B1  0%, #A67C52 100%) ;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
-    background: -webkit-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
-    background: -o-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
-	background: -ms-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
+    background: -webkit-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+    background: -o-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+	background: -ms-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
 	filter:alpha(opacity=95);  
 	-moz-opacity:0.95;  
 	-khtml-opacity: 0.95;  
@@ -1643,15 +1647,15 @@
 	top: -2.7rem;
 	z-index: 20;
 	border-radius: 1.05rem;
-	background: -moz-linear-gradient(top, #F4D8B1  0%, #E1C196 100%) ;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
-    background: -webkit-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
-    background: -o-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
-	background: -ms-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
+	background: -moz-linear-gradient(top, #A67C52  0%, #F4D8B1 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A67C52), color-stop(100%,#F4D8B1))  ;
+    background: -webkit-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
+    background: -o-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
+	background: -ms-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
 	filter:alpha(opacity=95);  
 	-moz-opacity:0.95;  
 	-khtml-opacity: 0.95;  
-	opacity: 0.95;  
+	opacity: 0.95;   
 }
 
 #daily .list_top .list_textRow .text_a {
@@ -1738,9 +1742,9 @@
 
 #daily_m .list_textRow {
 	width: 2.38rem;
-	height: 5.5rem;
+	height: 5.525rem;
 	color: #fff;
-	left: 1.18rem;
+	left: 1.195rem;
 	opacity: 0.9;
 	position: absolute;
 	top: 0;
@@ -1803,10 +1807,18 @@
 	height: 5.5rem;
 	opacity: 0.9;
 	position: absolute;
-	top: -3.12rem;
-	z-index: 20;
-	border-radius: 1.2rem;
-	background: #E1C196;
+	top: -3.14rem;
+    z-index: 20;
+    border-radius: 1.19rem; 
+	background: -moz-linear-gradient(top, #A67C52  0%, #F4D8B1 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A67C52), color-stop(100%,#F4D8B1))  ;
+    background: -webkit-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
+    background: -o-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
+	background: -ms-linear-gradient(top, #A67C52 0%,#F4D8B1 100%) ;
+	filter:alpha(opacity=95);  
+	-moz-opacity:0.95;  
+	-khtml-opacity: 0.95;  
+	opacity: 0.95;  
 }
 
 #daily_m .list_top .list_textRow .text_a {

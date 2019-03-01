@@ -108,15 +108,18 @@ $(document).ready(function () {
 		$('body').addClass('wh100')
 	});
 
-	$(".toggleShow").click(function () { 
+	$(".toShow").click(function () { 
 		$('.founder_text').removeClass('hide_m')
-		$('.toggleShow').hide()
+		$('.toShow').addClass('hide_m')
+		$('.tohide').removeClass('hide_m')
+	});
+	$(".tohide").click(function () { 
+		$('.founder_text').addClass('hide_m')
+		$('.tohide').addClass('hide_m')
+		$('.toShow').removeClass('hide_m')
 	});
 	
-	$("#sizeIcon_i").click(function () {
-		$('.sizeAct span').toggleClass('notshow')
-	});
-
+	
 });
 
 
