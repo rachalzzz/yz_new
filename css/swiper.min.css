@@ -305,9 +305,13 @@
     width: 6px;
     height: 6px;
     display: inline-block;
-    border-radius: 100%;
-    background: #c69c6d;
-    opacity: 0.85;
+    border-radius: 100%;	
+    background: -moz-linear-gradient(top, #F4D8B1  0%, #A67C52 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
+    background: -webkit-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+    background: -o-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+    background: -ms-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+	opacity: 0.95; 
  
 }
 

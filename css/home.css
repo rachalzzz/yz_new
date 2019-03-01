@@ -142,15 +142,15 @@
 
 
 .nav_btn .fontIcon1 {
-	width: 0.45rem;
+	width: 0.2rem;
 	margin-right: 20px
 }
 
 .nav_btn .fontIcon2 {
-	width: 0.45rem;margin-right: 20px
+	width: 0.2rem;margin-right: 20px
 }
 .nav_btn .fontIcon3 {
-	width: 0.45rem;
+	width: 0.2rem;
 }
 /* 创始人 */
 #founder {
@@ -404,7 +404,7 @@
 	margin-top: 0.27rem;
 	text-align: center;
 	color: #c69c6d;
-	font-size: 0.24rem;
+	font-size: 0.34rem;
 	font-family: HYZiKuTangYiShanKaiW
 }
 
@@ -1100,8 +1100,11 @@
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
     background: -webkit-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
     background: -o-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
-    background: -ms-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
-
+	background: -ms-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+	filter:alpha(opacity=95);  
+	-moz-opacity:0.95;  
+	-khtml-opacity: 0.95;  
+	opacity: 0.95;  
 }
 
 #scrollDiv .scroll_text_a {
@@ -1141,11 +1144,12 @@
 }
 
 #scrollDiv .scroll_text_d {
-	font-size: 0.12rem;
+	font-size: 0.14rem;
 	font-family: HYZiKuTangYiShanKaiW;
 	position: absolute;
 	top: 3.46rem;
-	width: 100%;
+    width: 90%;
+    margin-left: 5%;
 	text-align: center
 }
 
@@ -1154,7 +1158,7 @@
 }
 
 #scrollDiv .scroll_text_f {
-	font-size: 0.12rem;
+	font-size: 0.14rem;
 	font-family: HYZiKuTangYiShanKaiW;
 	position: absolute;
 	top: 4.08rem;
@@ -1215,11 +1219,12 @@
 }
 
 #scrollDiv .scroll_text_top .scroll_text_d {
-	font-size: 0.12rem;
+	font-size: 0.14rem;
 	font-family: HYZiKuTangYiShanKaiW;
 	position: absolute;
 	top: 2.31rem;
-	width: 100%;
+    width: 90%;
+    margin-left: 5%;
 	text-align: center
 }
 
@@ -1261,7 +1266,7 @@
 	margin-top: 0.27rem;
 	text-align: center;
 	color: #c69c6d;
-	font-size: 0.24rem;
+	font-size: 0.34rem;
 	font-family: HYZiKuTangYiShanKaiW
 }
 
@@ -1314,8 +1319,15 @@
 	height: 5.4rem;
 	position: absolute;
 	top: 0.1rem;
-	background: #CFAB79;
-	opacity: 0.95;
+	background: -moz-linear-gradient(top, #F4D8B1  0%, #A67C52 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
+    background: -webkit-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+    background: -o-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+	background: -ms-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+	filter:alpha(opacity=95);  
+	-moz-opacity:0.95;  
+	-khtml-opacity: 0.95;  
+	opacity: 0.95;  
 	border-radius: 1.12rem;
 }
 
@@ -1356,11 +1368,12 @@
 }
 
 .swiper-container .scroll_text_d {
-	font-size: 0.12rem;
+	font-size: 0.18rem;
 	font-family: HYZiKuTangYiShanKaiW;
 	position: absolute;
 	top: 3.46rem;
-	width: 100%;
+	width: 90%;
+    margin-left: 5%;
 	text-align: center
 }
 
@@ -1426,7 +1439,7 @@
 }
 
 .swiper-container .scroll_text_top .scroll_text_d {
-	font-size: 0.12rem;
+	font-size: 0.18rem;
 	font-family: HYZiKuTangYiShanKaiW;
 	position: absolute;
 	top: 2.31rem;
@@ -1563,13 +1576,22 @@
 
 #daily .list_textRow {
 	width: 1.8rem;
-	height: 4.49rem;
-	opacity: 0.9;
+	height: 4.5rem;
+	opacity: 0.9;overflow: hidden;
 	position: absolute;
 	top: 0;
 	z-index: 20;
 	border-radius: 1.05rem;
-	background: #E1C196;
+	background: -moz-linear-gradient(top, #F4D8B1  0%, #E1C196 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
+    background: -webkit-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
+    background: -o-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
+	background: -ms-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
+	filter:alpha(opacity=95);  
+	-moz-opacity:0.95;  
+	-khtml-opacity: 0.95;  
+	opacity: 0.95;  
+	/* background: #E1C196; */
 }
 
 #daily .list_textRow .text_a {
@@ -1621,7 +1643,15 @@
 	top: -2.7rem;
 	z-index: 20;
 	border-radius: 1.05rem;
-	background: #E1C196;
+	background: -moz-linear-gradient(top, #F4D8B1  0%, #E1C196 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
+    background: -webkit-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
+    background: -o-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
+	background: -ms-linear-gradient(top, #F4D8B1 0%,#E1C196 100%) ;
+	filter:alpha(opacity=95);  
+	-moz-opacity:0.95;  
+	-khtml-opacity: 0.95;  
+	opacity: 0.95;  
 }
 
 #daily .list_top .list_textRow .text_a {
@@ -1683,7 +1713,7 @@
 	margin-top: 0.27rem;
 	text-align: center;
 	color: #c69c6d;
-	font-size: 0.24rem;
+	font-size: 0.34rem;
 	font-family: HYZiKuTangYiShanKaiW
 }
 
@@ -1716,7 +1746,15 @@
 	top: 0;
 	z-index: 20;
 	border-radius: 1.2rem;
-	background: #E1C196;
+	background: -moz-linear-gradient(top, #F4D8B1  0%, #A67C52 100%) ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
+    background: -webkit-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+    background: -o-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+	background: -ms-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+	filter:alpha(opacity=95);  
+	-moz-opacity:0.95;  
+	-khtml-opacity: 0.95;  
+	opacity: 0.95;  
 }
 
 #daily_m .list_textRow .text_a {
