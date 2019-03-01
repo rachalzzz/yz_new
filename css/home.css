@@ -1867,7 +1867,9 @@
 .wh100 {
 	overflow: hidden;
 }
-
+.code_pc{width: 2rem;    position: absolute;
+    top: 1rem; }
+#Wechat{ cursor: pointer;}
 
 
 
@@ -1957,6 +1959,7 @@
 	#contact_m {
 		display: none
 	}
+
 }
 
 @media (max-width: 750px) {

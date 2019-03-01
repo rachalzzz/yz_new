@@ -61,7 +61,9 @@ $(document).ready(function () {
 		$(this).siblings().addClass('ishide')
 		$(this).removeClass('hoverAct')
 	});
-
+	$("#Wechat").click(function () {
+		$('.code_pc').toggleClass('ishide')
+	});
 
 	// $(".fan").click(function () {
 	// 	$(".fan").hide();
