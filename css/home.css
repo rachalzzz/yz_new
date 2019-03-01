@@ -48,8 +48,8 @@
 	float: left;
 }
 
-#nav .nav_tab a {
-	margin-right: 0.27rem;
+#nav .nav_tab span {
+	margin-right: 0.27rem; cursor: pointer;
 }
 
 #nav_m {
@@ -78,13 +78,13 @@
 }
 
 .sizeIcon {
-	width: 0.3rem;
+	width: 0.2rem;
 	vertical-align: sub;  cursor: pointer;
 }
 .sizeAct{ float: right;vertical-align: sub; 
 }
 .sizeAct span{   margin: -10px 0;
-	width: 0.3rem;
+	width: 0.2rem;
 	margin-top: -10px 0;
 	border-top: 1px solid #000;
 	display: block;

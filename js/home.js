@@ -65,6 +65,25 @@ $(document).ready(function () {
 		$('.code_pc').toggleClass('ishide')
 	});
 
+
+
+	$("#tofounder").click(function () {  
+		$("html,body").animate({scrollTop:$("#founder").offset().top},1000)
+	});
+	$("#toarea").click(function () {  
+		$("html,body").animate({scrollTop:$("#area").offset().top},1000)
+	});
+	$("#todaily").click(function () {  
+		$("html,body").animate({scrollTop:$("#daily").offset().top},1000)
+	});
+	$("#tocontact").click(function () {  
+		$("html,body").animate({scrollTop:$("#contact").offset().top},1000)
+	});
+	$("#topartner").click(function () {  
+		$("html,body").animate({scrollTop:$("#partner").offset().top},1000)
+	});
+	 
+	
 	// $(".fan").click(function () {
 	// 	$(".fan").hide();
 	// 	$(".jian").show();
