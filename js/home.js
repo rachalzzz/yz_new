@@ -20,12 +20,14 @@ window.onload = function () {
 }
 
 $(document).ready(function () {
-	$(".partner_img").mouseenter(function () {
-		$(this).siblings().removeClass('ishide')
+	$(".partner_img").mouseenter(function () { 
+		// $(this).siblings().fadein(1000) 
+		$(this).siblings().animate( {height:'toggle'});
 		$(this).addClass('hoverAct')
 	});
 	$(".partner_img").mouseleave(function () {
-		$(this).siblings().addClass('ishide')
+		// $(this).siblings().addClass('ishide')
+		$(this).siblings().animate( {height:'toggle'});
 		$(this).removeClass('hoverAct')
 	});
 	$("#up").click(function () {
@@ -54,17 +56,31 @@ $(document).ready(function () {
 		$('#daily .point2').addClass('point_act')
 	});
 	$(".daily_img").mouseenter(function () {
-		$(this).siblings().removeClass('ishide')
+		// $(this).siblings().removeClass('ishide')
+		$(this).siblings().animate( {height:'toggle'});
 		$(this).addClass('hoverAct')
 	});
 	$(".daily_img").mouseleave(function () {
-		$(this).siblings().addClass('ishide')
+		// $(this).siblings().addClass('ishide')
+		$(this).siblings().animate( {height:'toggle'});
 		$(this).removeClass('hoverAct')
 	});
-	$("#Wechat").click(function () {
-		$('.code_pc').toggleClass('ishide')
+	$("#Wechat").mouseenter(function () {
+		$('.code_pc').animate( {height:'toggle'});
+		// $('.code_pc').fadeIn(1500);
+	});
+	$("#Wechat").mouseleave(function () {
+		$('.code_pc').animate( {height:'toggle'});
+	});
+	
+ 
+
+	$("#jian_act").click(function () {
+		$("#fan").fadeToggle() 
+		$("#en").fadeToggle() 
 	});
 
+ 
 
 
 	$("#tofounder").click(function () {  

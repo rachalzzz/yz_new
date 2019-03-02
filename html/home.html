@@ -33,9 +33,12 @@
 			<span  id="todaily">投资日志</span>
 			<span id="tocontact">联系我们</span> 
 			<div class="sizeAct">
-				<img src="../img/jian_act.png" class="sizeIcon"/> 
-				<img src="../img/fan.png"      class="sizeIcon" /> 
-				<img src="../img/en.png"       class="sizeIcon" />
+				<img src="../img/jian_act.png" class="sizeIcon" id="jian_act"/> 
+				<img src="../img/jian.png"     class="sizeIcon ishide" id="jian"/> 
+				<img src="../img/fan.png"      class="sizeIcon ishide" id="fan" /> 
+				<img src="../img/fan_act.png"  class="sizeIcon ishide" id="fan_act" /> 
+				<img src="../img/en.png"       class="sizeIcon ishide" id="en" /> 
+				<img src="../img/en_act.png"   class="sizeIcon ishide" id="en_act" />
 			</div>
 		</span>
 	</div>
@@ -244,11 +247,11 @@
 			<div class="specialText">Team</div>
 			<div class="normalText">元真伙伴</div>
 		</div>
-		<div class="partner_btn">
+		<div class=" newbtn">
 			<img src="../img/up.png" id="up" />
-			<img src="../img/down.png" id="down" />
 			<span class="point1 point point_act"></span>
 			<span class="point2 point "></span>
+			<img src="../img/down.png" id="down" />
 		</div>
 		<div class="partner_right">
 			<div class="scrollbox">
@@ -256,7 +259,7 @@
 					<ul id="scroll_a">
 						<li>
 
-							<div class="scroll_text ishide">
+							<div class="scroll_text">
 								<div class="scroll_text_a">Rosen</div>
 								<div class="scroll_text_b">董事长</div>
 								<div class="scroll_text_e">/</div>
@@ -275,7 +278,7 @@
 						</li>
 						<li>
 
-							<div class="scroll_text ishide">
+							<div class="scroll_text">
 								<div class="scroll_text_a">Alex</div>
 								<div class="scroll_text_b">创始合伙人</div>
 								<div class="scroll_text_e">/</div>
@@ -290,34 +293,30 @@
 						<li>
 
 							<img src="../img/m3.png" class="partner_img">
-							<div class="scroll_text ishide">
+							<div class="scroll_text">
 								<div class="scroll_text_a">PQ</div>
 								<div class="scroll_text_b">财务主管</div>
 								<div class="scroll_text_e">/</div>
 								<div class="scroll_text_c">彭清</div>
-								<div class="scroll_text_f">
-									施比受更有福
-								</div>
+								<div class="scroll_text_f">施比受更有福</div>
 							</div>
 							>
 						</li>
 						<li>
 
-							<div class="scroll_text ishide scroll_text_top">
+							<div class="scroll_text  scroll_text_top">
 								<div class="scroll_text_a">Queenie</div>
 								<div class="scroll_text_b">投资经理</div>
 								<div class="scroll_text_e">/</div>
 								<div class="scroll_text_c">王沁怡</div>
-								<div class="scroll_text_d">
-									爱是宇宙最大能量
-								</div>
+								<div class="scroll_text_d">爱是宇宙最大能量</div>
 							</div>
 							<img src="../img/m4.png" class="partner_img">
 							>
 						</li>
 						<li>
 
-							<div class="scroll_text ishide scroll_text_top">
+							<div class="scroll_text  scroll_text_top">
 								<div class="scroll_text_a">Chris</div>
 								<div class="scroll_text_b">投资经理</div>
 								<div class="scroll_text_e">/</div>
@@ -330,8 +329,7 @@
 							>
 						</li>
 						<li>
-
-							<div class="scroll_text ishide scroll_text_top">
+							<div class="scroll_text  scroll_text_top">
 								<div class="scroll_text_a">Jack</div>
 								<div class="scroll_text_b">投资助理</div>
 								<div class="scroll_text_e">/</div>
@@ -346,8 +344,7 @@
 					</ul>
 					<ul id="scroll_b">
 						<li>
-
-							<div class="scroll_text ishide">
+							<div class="scroll_text ">
 								<div class="scroll_text_a">Yen</div>
 								<div class="scroll_text_b">出纳</div>
 								<div class="scroll_text_e">/</div>
@@ -360,8 +357,7 @@
 							>
 						</li>
 						<li>
-
-							<div class="scroll_text ishide">
+							<div class="scroll_text ">
 								<div class="scroll_text_a">Kerry</div>
 								<div class="scroll_text_b">财务助理</div>
 								<div class="scroll_text_e">/</div>
@@ -375,8 +371,7 @@
 							>
 						</li>
 						<li>
-
-							<div class="scroll_text ishide">
+							<div class="scroll_text ">
 								<div class="scroll_text_a">Iva</div>
 								<div class="scroll_text_b">行政助理</div>
 								<div class="scroll_text_e">/</div>
@@ -541,14 +536,14 @@
 		</div>
 		<div class="daily_btn">
 			<img src="../img/up.png" id="daily_up" />
-			<img src="../img/down.png" id="daily_down" />
 			<span class="point1 point point_act"></span>
 			<span class="point2 point "></span>
+			<img src="../img/down.png" id="daily_down" />
 		</div>
 		<div class="daily_right">
 			<div id="daily_a" class="scrolldaily">
 				<div class="list">
-					<div class="list_textRow ishide">
+					<div class="list_textRow ">
 						<div class="text_a">深圳智触计算机</div>
 						<div class="text_v">系统有限公司</div>
 						<div class="text_e">/</div>
@@ -562,7 +557,7 @@
 					<img src="../img/t1.png" class="daily_img">
 				</div>
 				<div class="list">
-					<div class="list_textRow ishide">
+					<div class="list_textRow ">
 						<div class="text_a">北京动网天下</div>
 						<div class="text_v">科技有限公司</div>
 						<div class="text_e">/</div>
@@ -575,7 +570,7 @@
 					<img src="../img/t2.png" class="daily_img">
 				</div>
 				<div class="list">
-					<div class="list_textRow ishide">
+					<div class="list_textRow ">
 						<div class="text_a">深圳叶师傅饮茶</div>
 						<div class="text_v">餐饮管理有限公司</div>
 						<div class="text_e">/</div>
@@ -588,7 +583,7 @@
 					<img src="../img/t3.png" class="daily_img">
 				</div>
 				<div class="list list_top">
-					<div class="list_textRow  ishide">
+					<div class="list_textRow  ">
 						<div class="text_a">深圳鸿运当头网络</div>
 						<div class="text_v">科技有限公司</div>
 						<div class="text_e">/</div>
@@ -601,7 +596,7 @@
 					<img src="../img/t4.png" class="daily_img">
 				</div>
 				<div class="list list_top">
-					<div class="list_textRow ishide">
+					<div class="list_textRow ">
 						<div class="text_a">动盈多媒体技术</div>
 						<div class="text_v">(上海)有限公司</div>
 						<div class="text_e">/</div>
@@ -614,7 +609,7 @@
 					<img src="../img/t5.png" class="daily_img">
 				</div>
 				<div class="list list_top">
-					<div class="list_textRow ishide">
+					<div class="list_textRow ">
 						<div class="text_a">丰疆智慧农业</div>
 						<div class="text_v">股份有限公司</div>
 						<div class="text_e">/</div>
@@ -629,7 +624,7 @@
 			</div>
 			<div id="daily_b" class="scrollDiv">
 				<div class="list">
-					<div class="list_textRow ishide">
+					<div class="list_textRow ">
 						<div class="text_a">深圳加拉国际文旅</div>
 						<div class="text_v">投资企业</div>
 						<div class="text_f">（有限合伙）</div>
@@ -642,7 +637,7 @@
 					<img src="../img/t7.png" class="daily_img">
 				</div>
 				<div class="list">
-					<div class="list_textRow ishide">
+					<div class="list_textRow ">
 						<div class="text_a">香港勝金莎堡酒莊</div>
 						<div class="text_v">實業有限公司</div>
 						<div class="text_e">/</div>
@@ -668,7 +663,7 @@
 					<ul class="scroll_a" >
 						<li>
 							<div class="list">
-								<div class="list_textRow ishide">
+								<div class="list_textRow ">
 									<div class="text_a">深圳智触计算机</div>
 									<div class="text_v">系统有限公司</div>
 									<div class="text_e">/</div>
@@ -684,7 +679,7 @@
 						</li>
 						<li>
 							<div class="list">
-								<div class="list_textRow ishide">
+								<div class="list_textRow ">
 									<div class="text_a">北京动网天下</div>
 									<div class="text_v">科技有限公司</div>
 									<div class="text_e">/</div>
@@ -699,7 +694,7 @@
 						</li>
 						<li>
 							<div class="list list_top">
-								<div class="list_textRow ishide">
+								<div class="list_textRow ">
 									<div class="text_a">深圳叶师傅饮茶</div>
 									<div class="text_v">餐饮管理有限公司</div>
 									<div class="text_e">/</div>
@@ -714,7 +709,7 @@
 						</li>
 						<li>
 							<div class="list list_top">
-								<div class="list_textRow  ishide">
+								<div class="list_textRow  ">
 									<div class="text_a">深圳鸿运当头网络</div>
 									<div class="text_v">科技有限公司</div>
 									<div class="text_e">/</div>
@@ -732,7 +727,7 @@
 				<div class="swiper-slide">
 					<ul class="scroll_a">
 						<li>
-							<div class="list_textRow ishide">
+							<div class="list_textRow ">
 								<div class="text_a">动盈多媒体技术</div>
 								<div class="text_v">(上海)有限公司</div>
 								<div class="text_e">/</div>
@@ -745,7 +740,7 @@
 							<img src="../img/t5.png" class="daily_img">
 						</li>
 						<li>
-							<div class="list_textRow ishide">
+							<div class="list_textRow ">
 								<div class="text_a">丰疆智慧农业</div>
 								<div class="text_v">股份有限公司</div>
 								<div class="text_e">/</div>
@@ -759,7 +754,7 @@
 						</li>
 						<li>
 							<div class="list list_top">
-								<div class="list_textRow ishide">
+								<div class="list_textRow ">
 									<div class="text_a">深圳加拉国际文旅</div>
 									<div class="text_v">投资企业</div>
 									<div class="text_f">（有限合伙）</div>
@@ -774,7 +769,7 @@
 						</li>
 						<li>
 							<div class="list list_top">
-								<div class="list_textRow ishide">
+								<div class="list_textRow ">
 									<div class="text_a">香港勝金莎堡酒莊</div>
 									<div class="text_v">實業有限公司</div>
 									<div class="text_e">/</div>
