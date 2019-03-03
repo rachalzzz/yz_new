@@ -19,16 +19,16 @@ window.onload = function () {
 	}
 }
 
-$(document).ready(function () {
-	$(".partner_img").mouseenter(function () { 
-		// $(this).siblings().fadein(1000) 
-		$(this).siblings().animate( {height:'toggle'});
-		$(this).addClass('hoverAct')
+$(document).ready(function () { 
+	$(".partner_img").mouseenter(function () {  
+		$(this).siblings().show() 
+		$(this).siblings().find('div').slideDown() 
+		$(this).addClass('hoverAct') 
 	});
-	$(".partner_img").mouseleave(function () {
-		// $(this).siblings().addClass('ishide')
-		$(this).siblings().animate( {height:'toggle'});
-		$(this).removeClass('hoverAct')
+	$(".partner_img").mouseleave(function () { 
+		$(this).siblings().hide()  
+		$(this).siblings().find('div').hide()  
+		$(this).removeClass('hoverAct') 
 	});
 	$("#up").click(function () {
 		$("#scroll_b").hide("800");
@@ -55,22 +55,35 @@ $(document).ready(function () {
 		$('#daily .point1').removeClass('point_act')
 		$('#daily .point2').addClass('point_act')
 	});
-	$(".daily_img").mouseenter(function () {
-		// $(this).siblings().removeClass('ishide')
-		$(this).siblings().animate( {height:'toggle'});
-		$(this).addClass('hoverAct')
+	// $(".daily_img").mouseenter(function () {
+	// 	// $(this).siblings().removeClass('ishide')
+	// 	$(this).siblings().animate( {height:'toggle'});
+	// 	$(this).addClass('hoverAct')
+	// });
+	// $(".daily_img").mouseleave(function () {
+	// 	// $(this).siblings().addClass('ishide')
+	// 	$(this).siblings().animate( {height:'toggle'});
+	// 	$(this).removeClass('hoverAct')
+	// });
+
+
+	$(".daily_img").mouseenter(function () {  
+		$(this).siblings().show() 
+		$(this).siblings().find('div').slideDown() 
+		$(this).addClass('hoverAct') 
 	});
-	$(".daily_img").mouseleave(function () {
-		// $(this).siblings().addClass('ishide')
-		$(this).siblings().animate( {height:'toggle'});
-		$(this).removeClass('hoverAct')
+	$(".daily_img").mouseleave(function () { 
+		$(this).siblings().hide()  
+		$(this).siblings().find('div').hide()  
+		$(this).removeClass('hoverAct') 
 	});
+
+
 	$("#Wechat").mouseenter(function () {
-		$('.code_pc').animate( {height:'toggle'});
-		// $('.code_pc').fadeIn(1500);
+		$('.code_pc').fadeIn() 
 	});
-	$("#Wechat").mouseleave(function () {
-		$('.code_pc').animate( {height:'toggle'});
+	$("#Wechat").mouseleave(function () { 
+		$('.code_pc').fadeOut() 
 	});
 	
  
@@ -125,12 +138,12 @@ $(document).ready(function () {
 	});
 
 	$(".toShow").click(function () { 
-		$('.founder_text').removeClass('hide_m')
+		$('.founder_text_a').removeClass('hide_m')
 		$('.toShow').addClass('hide_m')
 		$('.tohide').removeClass('hide_m')
 	});
 	$(".tohide").click(function () { 
-		$('.founder_text').addClass('hide_m')
+		$('.founder_text_a').addClass('hide_m')
 		$('.tohide').addClass('hide_m')
 		$('.toShow').removeClass('hide_m')
 	});
