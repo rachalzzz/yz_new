@@ -1,14 +1,4 @@
-.newbtn{ width: 0.21rem; height:150px; position: absolute;
-    top: 5rem;    opacity: 0.5;   line-height: 11px;
-	left: 3.63rem;text-align: -webkit-center; } 
-.newbtn_w{
-	width:100%; height: 150px; position: relative; text-align: -moz-center;
-}
-.newbtn div{ width: 100%; text-align: inherit;text-align: -moz-center;}
-
-.newbtn img { 
-	width: 0.21rem; padding:10px 0;
-}
+ 
 .newbtn .point { margin:8px 0;
 	width: 0.11rem;
 	height: 0.11rem;  display: grid;
@@ -24,49 +14,68 @@
 	height: 0.15rem;width: 0.15rem;
 }
 
+.newbtn{ width: 0.21rem; height:150px; position: absolute;
+    top: 5rem;    opacity: 0.5;   line-height: 11px;
+	left: 3.63rem;text-align: -webkit-center;} 
+.newbtn_w{
+	width:100%; height: 150px; position: relative; text-align: -moz-center;text-align:center;     display: grid;
+}
+.newbtn_w div{ width: 100%; text-align: -moz-center;}
+
+.newbtn img { 
+	width: 0.21rem; padding:10px 0; float: left;
+}
+.newbtn .point { margin:8px 0.04rem;
+	width: 0.09rem;
+	height: 0.09rem;  
+	 border-radius: 50%;   background: #A67C52 ; 
+	opacity: 0.95; 
+}	 
+.newbtn .point_act { 
+	border-radius: 50%;
+	height: 0.12rem;width: 0.12rem;
+}
+.newbtn #up{position: absolute;top:0;} 
+.newbtn .point1{position: absolute;top:0.4rem;}
+.newbtn .point2{position: absolute;top:0.7rem;}
+.newbtn #down{position: absolute;top:1rem;}
+.newbtn .point_act{left:-0.01rem}
+  
+
+
+
+
 
 
 
 
 .daily_btn{ width: 0.21rem; height:150px; position: absolute;
     top: 5rem;    opacity: 0.5;   line-height: 11px;
-	left: 3.63rem;text-align: -webkit-center; } 
+	left: 3.63rem;text-align: -webkit-center;text-align:center; } 
 .daily_btn_w{
-	width:100%; height: 150px; position: relative; text-align: -moz-center;
+	width:100%; height: 150px; position: relative; text-align: -moz-center;text-align:center;     display: grid;
 }
-.daily_btn_w div{ width: 100%; text-align: inherit;text-align: -moz-center;}
+.daily_btn_w div{ width: 100%; text-align: -moz-center;}
 
 .daily_btn img { 
-	width: 0.21rem; padding:10px 0;
+	width: 0.21rem; padding:10px 0; float: left;
 }
-.daily_btn .point { margin:8px 0;
-	width: 0.11rem;
-	height: 0.11rem;  display: grid;
-	border-radius: 50%;   background: -moz-linear-gradient(top, #F4D8B1  0%, #A67C52 100%) ;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
-    background: -webkit-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
-    background: -o-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
-    background: -ms-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
+.daily_btn .point { margin:8px 0.04rem;
+	width: 0.09rem;
+	height: 0.09rem;  
+	 border-radius: 50%;   background: #A67C52 ; 
 	opacity: 0.95; 
 }	 
 .daily_btn .point_act { 
 	border-radius: 50%;
-	height: 0.15rem;width: 0.15rem;
+	height: 0.12rem;width: 0.12rem;
 }
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
+.daily_btn_w #daily_up{position: absolute;top:0;} 
+.daily_btn_w .point1{position: absolute;top:0.4rem;}
+.daily_btn_w .point2{position: absolute;top:0.7rem;}
+.daily_btn_w #daily_down{position: absolute;top:1rem;}
+.daily_btn_w .point_act{left:-0.01rem}
+  
 
 
 
@@ -101,7 +110,7 @@
 }
 
 #nav a {
-	color: #000;box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+	color: #000;
 	line-height: 0.5rem
 }
 
@@ -152,7 +161,7 @@
 }
 
 .sizeIcon {
-	width: 0.25rem;
+	width: 0.2rem; max-width: 25px ;
 	vertical-align: sub;  cursor: pointer;
 }
 .sizeAct{ float: right;vertical-align: sub; 
@@ -165,7 +174,6 @@
 	background: #fff;
 	top: 0;
 	left: 0;
-	/* box-shadow: 0 1px 4px 0 rgba(247,248,248,.9); */
 	box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
 }
 
@@ -276,9 +284,9 @@
 #founder .founder_right div {
 	margin-bottom: 0.5rem
 }
-.toShow{color: #cccccc;font-size: 0.16rem; width: 100%; text-align: center; font-family:'微软雅黑'}
+.toShow{color: #cccccc;font-size: 0.2rem; width: 100%; text-align: center; font-family:'微软雅黑'}
 .toShow img{width:0.24rem;    vertical-align: middle;margin-right: 0.1rem}
-.tohide{color: #cccccc;font-size: 0.16rem; width: 100%; text-align: center;font-family:'微软雅黑'}
+.tohide{color: #cccccc;font-size: 0.2rem; width: 100%; text-align: center;font-family:'微软雅黑'}
 .tohide img{width:0.24rem;    vertical-align: middle;margin-right: 0.1rem}
 
 .founderpan{font-size: 0.26rem; color: #a67c52 }
@@ -1798,7 +1806,7 @@
 	position: absolute;
 	top: 3.6rem;
 	width: 90%;
-    margin-left: 5%;
+    left: 5%;
 	text-align: center;
 	font-size: 0.18rem
 }
