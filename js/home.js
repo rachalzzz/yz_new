@@ -3,9 +3,6 @@ window.onload = function () {
 	var whdef_m = 100 / 750;
 	var wW = window.innerWidth; // 当前窗口的宽度
 	var rem = wW * whdef;// 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值 
-	if(rem>=100){
-		rem=90
-	}	
 	if (wW > 750) {
 		document.getElementsByTagName('html')[0].style.fontSize = rem + 'px';
 	} else {
@@ -14,9 +11,6 @@ window.onload = function () {
 	window.onresize = function () {
 		var wW = window.innerWidth; // 当前窗口的宽度
 		var rem = wW * whdef;// 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值 
-		if(rem>=100){
-			rem=90
-		}
 		console.log(wW)
 		if (wW > 750) {
 			document.getElementsByTagName('html')[0].style.fontSize = rem + 'px';

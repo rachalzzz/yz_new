@@ -1,82 +1,59 @@
+
+
+.newbtn{ width: 0.21rem; height:150px; position: absolute;  
+    top: 5rem;   left: 3.63rem;  } 
+.newbtn_w{ 
+	width:100%; height: 150px;  text-align: -webkit-center;text-align:center; 
+
+}
+.newbtn_w div{    height: 24px;
+    display: grid;}
+
+.newbtn img {  
+	width: 0.21rem; padding:10px 0;
+}
+.newbtn .iconfont { 
+	font-size: 0.14rem;     line-height: 40px;
+	color: #a67c52; 
+	 filter:alpha(opacity=75);  
+	 -moz-opacity:0.75;  
+	 -khtml-opacity: 0.75;  
+	 opacity: 0.75;  
+}	 
+.newbtn .point_act {  
+	font-size: 0.19rem; 
+}
  
-.newbtn .point { margin:8px 0;
-	width: 0.11rem;
-	height: 0.11rem;  display: grid;
-	border-radius: 50%;   background: -moz-linear-gradient(top, #F4D8B1  0%, #A67C52 100%) ;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4D8B1), color-stop(100%,#A67C52))  ;
-    background: -webkit-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
-    background: -o-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
-    background: -ms-linear-gradient(top, #F4D8B1 0%,#A67C52 100%) ;
-	opacity: 0.95; 
-}	 
-.newbtn .point_act { 
-	border-radius: 50%;
-	height: 0.15rem;width: 0.15rem;
-}
+ 
 
-.newbtn{ width: 0.21rem; height:150px; position: absolute;
-    top: 5rem;    opacity: 0.5;   line-height: 11px;
-	left: 3.63rem;text-align: -webkit-center;} 
-.newbtn_w{
-	width:100%; height: 150px; position: relative; text-align: -moz-center;text-align:center;     display: grid;
-}
-.newbtn_w div{ width: 100%; text-align: -moz-center;}
-
-.newbtn img { 
-	width: 0.21rem; padding:10px 0; float: left;
-}
-.newbtn .point { margin:8px 0.04rem;
-	width: 0.09rem;
-	height: 0.09rem;  
-	 border-radius: 50%;   background: #A67C52 ; 
-	opacity: 0.95; 
-}	 
-.newbtn .point_act { 
-	border-radius: 50%;
-	height: 0.12rem;width: 0.12rem;
-}
-.newbtn #up{position: absolute;top:0;} 
-.newbtn .point1{position: absolute;top:0.4rem;}
-.newbtn .point2{position: absolute;top:0.7rem;}
-.newbtn #down{position: absolute;top:1rem;}
-.newbtn .point_act{left:-0.01rem}
-  
+ 
 
 
+	.daily_btn{ width: 0.21rem; height:150px; position: absolute;  
+		top: 5rem;   left: 3.63rem;  } 
+	.daily_btn_w{ 
+		width:100%; height: 150px;  text-align: -webkit-center;text-align:center; 
+	
+	}
+	.daily_btn_w div{    height: 24px;
+		display: grid;}
+	
+	.daily_btn_w img {  
+		width: 0.21rem; padding:10px 0;
+	}
+	.daily_btn_w .iconfont { 
+		font-size: 0.14rem;     line-height: 40px;
+		color: #a67c52; 
+		 filter:alpha(opacity=75);  
+		 -moz-opacity:0.75;  
+		 -khtml-opacity: 0.75;  
+		 opacity: 0.75;  
+	}	 
+	.daily_btn_w .point_act {  
+		font-size: 0.19rem; 
+	}
 
-
-
-
-
-
-.daily_btn{ width: 0.21rem; height:150px; position: absolute;
-    top: 5rem;    opacity: 0.5;   line-height: 11px;
-	left: 3.63rem;text-align: -webkit-center;text-align:center; } 
-.daily_btn_w{
-	width:100%; height: 150px; position: relative; text-align: -moz-center;text-align:center;     display: grid;
-}
-.daily_btn_w div{ width: 100%; text-align: -moz-center;}
-
-.daily_btn img { 
-	width: 0.21rem; padding:10px 0; float: left;
-}
-.daily_btn .point { margin:8px 0.04rem;
-	width: 0.09rem;
-	height: 0.09rem;  
-	 border-radius: 50%;   background: #A67C52 ; 
-	opacity: 0.95; 
-}	 
-.daily_btn .point_act { 
-	border-radius: 50%;
-	height: 0.12rem;width: 0.12rem;
-}
-.daily_btn_w #daily_up{position: absolute;top:0;} 
-.daily_btn_w .point1{position: absolute;top:0.4rem;}
-.daily_btn_w .point2{position: absolute;top:0.7rem;}
-.daily_btn_w #daily_down{position: absolute;top:1rem;}
-.daily_btn_w .point_act{left:-0.01rem}
-  
-
+ 
 
 
 
@@ -761,10 +738,10 @@
 	position: relative;
 	margin-right: 0.72rem;
 	float: left;
-	transition: 0.5s all;
+	/* transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
+	-o-transition: 0.5s all; */
 }
 
 #scrollDiv li img {
@@ -1114,10 +1091,10 @@
 	position: relative;
 	margin-right: 0.72rem;
 	float: left;
-	transition: 0.5s all;
+	/* transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
+	-o-transition: 0.5s all; */
 }
 
 #scrollDiv li img {
@@ -1340,10 +1317,10 @@
 	position: relative;  margin-right: 1rem;
 	margin-left: -0.2rem;
 	float: left;
-	transition: 0.5s all;
+	/* transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
+	-o-transition: 0.5s all; */
 }
 
 .swiper-container li img {
@@ -1418,7 +1395,7 @@
 	position: absolute;
 	top: 3.46rem;
 	width: 90%;
-    margin-left: 5%;
+    left: 5%;
 	text-align: center
 }
 
@@ -1569,10 +1546,10 @@
 	height: 2.7rem;
 	float: left;
 	margin-right: 1.09rem;
-	transition: 0.5s all;
+	/* transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
+	-o-transition: 0.5s all; */
 }
 
 #daily .list img {
@@ -1787,7 +1764,7 @@
 
 #daily_m .list_textRow .text_f {
 	position: absolute;
-	top: 1.45rem;
+	top: 1.3rem;
 	width: 100%;
 	font-size: 0.26rem;
 	text-align: center;
@@ -1801,6 +1778,15 @@
 	font-size: 0.26rem
 }
 
+#daily_m .list_textRow .taxt_g {
+	line-height: 0.26rem;
+	position: absolute;
+	top: 3.8rem;
+	width: 90%;
+    left: 5%;
+	text-align: center;
+	font-size: 0.18rem
+}
 #daily_m .list_textRow .taxt_b {
 	line-height: 0.26rem;
 	position: absolute;
@@ -1853,17 +1839,34 @@
     margin-left: 5%;
 	font-size: 0.26rem
 }
+#daily_m .list_top .list_textRow .text_x {
+	position: absolute;
+	top: 1.65rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.26rem
+}
 
 #daily_m .list_top .list_textRow .taxt_b {
 	line-height: 0.26rem;
 	position: absolute;
 	top: 1.9rem;
 	width: 90%;
-    margin-left: 5%;
+    left: 5%;
 	text-align: center;
 	font-size: 0.18rem
 }
 
+
+#daily_m .list_top .list_textRow .taxt_g {
+	line-height: 0.26rem;
+	position: absolute;
+	top: 2.2rem;
+	width: 90%;
+    left: 5%;
+	text-align: center;
+	font-size: 0.18rem
+}
 
 
 
